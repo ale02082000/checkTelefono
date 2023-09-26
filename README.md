@@ -45,12 +45,9 @@ public class Telefono
 ``` 
 
  
-***Questo codice C# è una funzione chiamata "Check" che accetta un array di stringhe "numeri" come input e restituisce una stringa,***
-***Itera attraverso ogni numero nell'array numeri***
-***Per ciascun numero, crea una nuova stringa "cleanedNumero" e un flag "hasInitialPlus".***
-***Se il carattere è un numero, lo aggiunge a "cleanedNumero".***
-***Se il carattere è un "+" e "cleanedNumero è vuoto", imposta "hasInitialPlus" su "true".***
-***Alla fine, restituisce "cleanedNumero se il numero soddisfa alcuni criteri specifici, altrimenti restituisce una stringa vuota".***
+***Questo codice c# è composto da una funzione chiamata "Check" che accetta un array di stringhe "numeri" e restituisce una stringa.***
+***Per ciascun numero, crea una nuova stringa "cleanedNumero" e un flag "hasInitialPlus",se il carattere è un numero, lo aggiunge a "cleanedNumero", invece se il carattere è un "+" e "cleanedNumero è vuoto", imposta "hasInitialPlus" su "true come si può vedere dal codice***.
+***Alla fine, restituisce "cleanedNumero se il numero soddisfa alcuni paramentri che vedremo nella seconda parte del codice, altrimenti restituisce una stringa vuota".***
 
 
 ``` c#
