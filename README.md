@@ -45,11 +45,12 @@ public class Telefono
 ``` 
 
  
- ***Questo codice c# analizza dei numeri di telefono  e se il numero inizia con un "+" , mantiene il "+" all'inizio del numero.***
-***Poi, verifica se il numero inizia con "+39" o "0039", oppure inizia con "3" .***
-***Verifica anche se la lunghezza del numero rientra è corretta.***
-***Se il numero soddisfa uno di questi criteri, lo considera valido e lo restituisce.***
-***Se nessuno dei numeri soddisfa i criteri di validità, il metodo restituisce una stringa vuota.***
+***Questo codice C# è una funzione chiamata "Check" che accetta un array di stringhe "numeri" come input e restituisce una stringa,***
+***Itera attraverso ogni numero nell'array numeri***
+***Per ciascun numero, crea una nuova stringa "cleanedNumero" e un flag "hasInitialPlus".***
+***Se il carattere è un numero, lo aggiunge a "cleanedNumero".***
+***Se il carattere è un "+" e "cleanedNumero è vuoto", imposta "hasInitialPlus" su "true".***
+***Alla fine, restituisce "cleanedNumero se il numero soddisfa alcuni criteri specifici, altrimenti restituisce una stringa vuota".***
 
 
 ``` c#
