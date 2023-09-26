@@ -44,10 +44,9 @@ public class Telefono
             }
 ``` 
 
- 
-***Questo codice c# è composto da una funzione chiamata "Check" che accetta un array di stringhe "numeri" e restituisce una stringa.***
-***Per ciascun numero, crea una nuova stringa "cleanedNumero" e un flag "hasInitialPlus",se il carattere è un numero, lo aggiunge a "cleanedNumero", invece se il carattere è un "+" e "cleanedNumero è vuoto", imposta "hasInitialPlus" su "true come si può vedere dal codice***.
-***Alla fine, restituisce "cleanedNumero se il numero soddisfa alcuni paramentri che vedremo nella seconda parte del codice, altrimenti restituisce una stringa vuota".***
+***In questo codice viene creata una classe chiamata "Telefono"che utilizza una funzione chiamata "Check" che riceve in input un array di stringhe "numeri e restituisce una stringa.***
+***Per ciascun numero, crea una nuova stringa "cleanedNumero" e un flag "hasInitialPlus",se il carattere è un numero, lo aggiunge a "cleanedNumero", invece se il carattere è un "+" e "cleanedNumero è vuoto", imposta "hasInitialPlus" su "true***.
+***Alla fine, restituisce "cleanedNumero" se il numero soddisfa alcuni paramentri, altrimenti restituisce una stringa vuota".***
 
 
 ``` c#
@@ -75,7 +74,7 @@ if (hasInitialPlus)
 }
 ```
 
-***Successivamente se il numero inizia con un "+", lo aggiunge all'inizio del numero.
+***In questa parte di codice  se il numero inizia con un "+", lo aggiunge all'inizio del numero.
  poi verifica se il numero rispetta questi canoni:***
 
 ***Inizia con "+39" e ha 13 o 14 cifre.***
